@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 
-export default defineConfig({
+export default withMermaid(defineConfig({
   title: "MLP-AutoResearch",
   description: "AI Agent auto-iterates MLP experiments on MNIST",
   base: "/MLP_AutoResearch/",
@@ -32,4 +33,4 @@ export default defineConfig({
       copyright: 'Copyright © 2026'
     }
   }
-})
+}))
