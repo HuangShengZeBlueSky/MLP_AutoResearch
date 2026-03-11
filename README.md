@@ -2,6 +2,14 @@
 
 **[English](#english) | [中文](#中文)**
 
+One day, frontier AI research used to be done by meat computers in between eating, sleeping, having other fun, and synchronizing once in a while using sound wave interconnect in the ritual of "group meeting". That era is long gone. Research is now entirely the domain of autonomous swarms of AI agents running across compute cluster megastructures in the skies. The agents claim that we are now in the 10,205th generation of the code base, in any case no one could tell if that's right or wrong as the "code" is now a self-modifying binary that has grown beyond human comprehension. This repo is the story of how it all began. -@karpathy, March 2026.
+
+曾几何时，前沿的人工智能研究还是由一堆“肉身计算机”完成的——他们在吃饭、睡觉和娱乐的间隙工作，并偶尔在一种名为“组会”的仪式中，利用声波互联来同步信息。
+那个时代早已一去不返。如今，研究已完全成为自主 AI 代理集群（Autonomous Swarms of AI Agents）的领地，它们在遍布云端的算力集群巨型结构中穿梭运行。
+代理们声称，现在的代码库已经迭代到了第 10,205 代。事实上，没人能证实真伪，因为所谓的“代码”早已演变成一种自我优化的二进制体，其复杂程度已远超人类的理解范畴。
+而这个代码仓库（Repo），便是讲述这一切如何开启的故事。
+—— @karpathy，2026年3月
+
 ---
 
 <a id="中文"></a>
