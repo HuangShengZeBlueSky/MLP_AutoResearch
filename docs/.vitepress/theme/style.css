@@ -1,0 +1,22 @@
+/* 放大 Mermaid 图表，避免文字太小看不清 */
+.mermaid {
+  display: flex !important;
+  justify-content: center !important;
+  margin: 2rem 0 !important;
+  background-color: var(--vp-c-bg-soft);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.mermaid svg {
+  max-width: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  /* 强制最小宽度，在小屏幕上允许横向滚动而不是无限缩放 */
+  min-width: 600px !important;
+}
+
+/* 在包含 Mermaid 图表的容器上允许滚动 */
+div[class*="language-mermaid"] {
+  overflow-x: auto !important;
+}
