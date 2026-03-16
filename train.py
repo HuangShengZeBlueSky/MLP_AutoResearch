@@ -26,7 +26,7 @@ HIDDEN_DIM = 1024            # 隐藏层维度
 USE_BATCHNORM = True         # 是否使用 Batch Normalization
 USE_RESIDUAL = False         # 是否使用残差连接
 RESIDUAL_BLOCK_SIZE = 5      # 每个残差块包含的层数
-ACTIVATION = 'relu'          # 激活函数: 'relu', 'gelu', 'silu', 'leaky_relu'
+ACTIVATION = 'gelu'          # 激活函数: 'relu', 'gelu', 'silu', 'leaky_relu'
 INIT_METHOD = 'kaiming_normal'  # 权重初始化: 'kaiming_normal', 'kaiming_uniform',
                                 #              'xavier_normal', 'xavier_uniform', 'default'
 DROPOUT_RATE = 0.0           # Dropout 比率 (0.0 = 不使用)
