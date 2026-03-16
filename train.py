@@ -21,19 +21,19 @@ from prepare import (
 # ---------------------------------------------------------------------------
 
 # 模型架构
-NUM_LAYERS = 20              # 网络层数（不含输入/输出层）
-HIDDEN_DIM = 1024            # 隐藏层维度
+NUM_LAYERS = 3              # 网络层数（不含输入/输出层）
+HIDDEN_DIM = 256            # 隐藏层维度
 USE_BATCHNORM = True         # 是否使用 Batch Normalization
 USE_RESIDUAL = False         # 是否使用残差连接
 RESIDUAL_BLOCK_SIZE = 5      # 每个残差块包含的层数
 ACTIVATION = 'gelu'          # 激活函数: 'relu', 'gelu', 'silu', 'leaky_relu'
 INIT_METHOD = 'kaiming_normal'  # 权重初始化: 'kaiming_normal', 'kaiming_uniform',
                                 #              'xavier_normal', 'xavier_uniform', 'default'
-DROPOUT_RATE = 0.0           # Dropout 比率 (0.0 = 不使用)
+DROPOUT_RATE = 0.1           # Dropout 比率 (0.0 = 不使用)
 
 # 优化器
-OPTIMIZER_TYPE = 'adam'       # 优化器: 'adam', 'adamw', 'sgd'
-LEARNING_RATE = 1e-5         # 学习率
+OPTIMIZER_TYPE = 'adamw'       # 优化器: 'adam', 'adamw', 'sgd'
+LEARNING_RATE = 1e-3         # 学习率
 WEIGHT_DECAY = 0.0           # 权重衰减 (L2 正则化)
 BETAS = (0.9, 0.999)         # Adam/AdamW 的 beta1, beta2
 MOMENTUM = 0.9               # SGD 的动量
