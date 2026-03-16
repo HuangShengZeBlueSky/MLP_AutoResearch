@@ -22,7 +22,7 @@ from prepare import (
 
 # 模型架构
 NUM_LAYERS = 3              # 网络层数（不含输入/输出层）
-HIDDEN_DIM = 256            # 隐藏层维度
+HIDDEN_DIM = 512            # 隐藏层维度
 USE_BATCHNORM = True         # 是否使用 Batch Normalization
 USE_RESIDUAL = False         # 是否使用残差连接
 RESIDUAL_BLOCK_SIZE = 5      # 每个残差块包含的层数
