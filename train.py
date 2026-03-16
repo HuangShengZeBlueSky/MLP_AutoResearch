@@ -34,10 +34,10 @@ DROPOUT_RATE = 0.1           # Dropout 比率 (0.0 = 不使用)
 # 优化器
 OPTIMIZER_TYPE = 'adamw'       # 优化器: 'adam', 'adamw', 'sgd'
 LEARNING_RATE = 1e-3         # 学习率
-WEIGHT_DECAY = 0.0           # 权重衰减 (L2 正则化)
+WEIGHT_DECAY = 1e-4          # 权重衰减 (L2 正则化)
 BETAS = (0.9, 0.999)         # Adam/AdamW 的 beta1, beta2
 MOMENTUM = 0.9               # SGD 的动量
-LR_SCHEDULE = 'none'         # 学习率调度: 'none', 'cosine', 'step'
+LR_SCHEDULE = 'cosine'       # 学习率调度: 'none', 'cosine', 'step'
 LR_STEP_SIZE = 10            # StepLR 的 step_size
 LR_GAMMA = 0.1               # StepLR 的 gamma
 
